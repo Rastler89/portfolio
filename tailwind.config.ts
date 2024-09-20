@@ -9,8 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        secondary:"#f5741c",
-        darkBg: "#131424",
+        secondary: "#2196f3",
+        //secondary: "#0072ca",
+        tertiary: "#815fbf",
+        //quaternary: "#7681de",
+        //quinary: "#33c6f1",
+        darkBg: "#252440",
       },
       backgroundImage: {
         "gradient-cover":

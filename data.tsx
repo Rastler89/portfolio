@@ -1,7 +1,7 @@
 import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
 
 export const socialNetworks = [
-    {
+    /*{
         id: 1,
         logo: <Youtube size={30} strokeWidth={1} />,
         src: "#!",
@@ -25,7 +25,7 @@ export const socialNetworks = [
         id: 5,
         logo: <Twitch size={30} strokeWidth={1} />,
         src: "#!",
-    },
+    },*/
 ];
 
 
@@ -63,7 +63,7 @@ export const itemsNavbar = [
 ];
 
 export const dataAboutPage = [
-    {
+    /*{
         id: 1,
         title: "Frontend Developer",
         subtitle: "TechSolutions",
@@ -90,11 +90,11 @@ export const dataAboutPage = [
         subtitle: "WebWizards Inc.",
         description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
         date: "Mar 2018",
-    },
+    },*/
 ]
 
 export const dataCounter = [
-    {
+    /*{
         id: 0,
         endCounter: 10,
         text: "Años de experiencia",
@@ -121,11 +121,11 @@ export const dataCounter = [
         text: "Premios ganadores",
         lineRight: false,
         lineRightMobile: false,
-    },
+    },*/
 ];
 
 export const serviceData = [
-    {
+    /*{
         icon: <Crop />,
         title: "Branding",
         description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
@@ -149,11 +149,11 @@ export const serviceData = [
         icon: <Rocket />,
         title: "SEO",
         description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
-    },
+    },*/
 ];
 
 export const dataPortfolio = [
-    {
+    /*{
         id: 1,
         title: "Web Pro",
         image: "/image-1.jpg",
@@ -208,11 +208,11 @@ export const dataPortfolio = [
         image: "/image-8.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
-    }
+    }*/
 ];
 
 export const dataTestimonials = [
-    {
+    /*{
         id: 1,
         name: "George Snow",
         description:
@@ -253,5 +253,5 @@ export const dataTestimonials = [
         description:
             "¡Fantástico recurso para aquellos que buscan validación antes de tomar decisiones importantes! Los testimonios aquí son veraces y realmente útiles. ¡Gracias por simplificar mi proceso de toma de decisiones!",
         imageUrl: "/profile6.png",
-    },
+    },*/
 ];

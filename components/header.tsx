@@ -11,7 +11,7 @@ const Header = () => {
                     <h1 className="my-3 text-4xl font-bold text-center md:text-left">
                         Rastler
                         <span className="text-secondary">
-                            Dev
+                            &nbsp;Dev
                         </span>
                     </h1>
                 </Link>
