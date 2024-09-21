@@ -38,7 +38,7 @@ const Introduction = () => {
                         <Link href="/portfolio" className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:sadow-white/50">
                             Ver proyectos
                         </Link>
-                        <Link href="/contact" className="px-3 py-2 transition-all border-2 cursor-pointer text-tertiary border-tertiary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-tertiary/60">
+                        <Link href="/?show=true" className="px-3 py-2 transition-all border-2 cursor-pointer text-tertiary border-tertiary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-tertiary/60">
                             Contacta conmigo
                         </Link>
                     </div>
