@@ -1,4 +1,4 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Workflow } from "lucide-react";
 
 export const socialNetworks = [
    /* {
@@ -69,53 +69,68 @@ export const dataAboutPage = [
         subtitle: "TechSolutions",
         description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
         date: "Nov 2023 ",
+    },*/
+    {
+        id: 1,
+        title: "Programador PL/SQL", 
+        subtitle: "Consorci Hospitalari de Vic",
+        description: "Desarrollo/mantenimiento de scripts PL/SQL en Oracle, desarrollo/mantenimiento de interfaces gráficas con ORACLE Forms y Reports",
+        date: "Mar 2023"
     },
     {
         id: 2,
-        title: "Creador de Experiencias Digitales",
-        subtitle: "PixelCrafters",
-        description: "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-        date: "May 2021",
+        title: "Técnico de TI",
+        subtitle: "Optima Retail",
+        description: "Gestión de incidencias, desarrollo íntegro de un sistema de control de calidad, programación de pantallas",
+        date: "Feb 2022"
     },
     {
         id: 3,
-        title: "Especialista en Desarrollo Frontend",
-        subtitle: "CodeForge Solutions",
-        description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-        date: "Ago 2019",
+        title: "Programador PHP",
+        subtitle: "Easypromos",
+        description: "Desarrollo/mantenimiento de scripts PHP, desarrollo de interfaces gráficas con React",
+        date: "Ene 2020"
     },
     {
         id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-        date: "Mar 2018",
-    },*/
+        title: "Programadow Web",
+        subtitle: "Alarmas y Seguridad",
+        description: "Desarrollo de una web para la venta de alarmas y seguridad electrónica",
+        date: "Jul 2019"
+    },
+    {
+        id: 5,
+        title: "Programador",
+        subtitle: "Bon Preu S.A.U",
+        description: "Desarrollo y mantenimiento de aplicaciones informáticas para la gestión de la empresa, mantenimiento de scripts PL/SQL, desarrollo de interfaces 4GL. Mantenimiento de base de datos Oracle y Microsoft SQL Server. Gestión de incidencias",
+        date: "Oct 2017"
+    }
 ]
 
 export const dataCounter = [
-    /*{
+    {
         id: 0,
-        endCounter: 10,
+        endCounter: 7,
         text: "Años de experiencia",
         lineRight: true,
         lineRightMobile: true,
     },
+    /*
     {
         id: 1,
         endCounter: 80,
         text: "Clientes satisfechos",
         lineRight: true,
         lineRightMobile: false,
-    },
+    },*/
     {
         id: 2,
-        endCounter: 220,
+        endCounter: 10,
         text: "Proyectos finalizados",
-        lineRight: true,
-        lineRightMobile: true,
-    },
-    {
+        lineRight: false,
+        lineRightMobile: false,
+    }
+    /*{
         id: 3,
         endCounter: 30,
         text: "Premios ganadores",
@@ -129,7 +144,7 @@ export const serviceData = [
         icon: <Crop />,
         title: "Branding",
         description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
-    },
+    },*/
     {
         icon: <Pencil />,
         title: "Diseño web",
@@ -142,24 +157,30 @@ export const serviceData = [
     },
     {
         icon: <Book />,
-        title: "Copywriting",
-        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
+        title: "Documentación",
+        description: "Creación de documentación técnica para proyectos de desarrollo de software",
     },
     {
         icon: <Rocket />,
         title: "SEO",
         description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
-    },*/
+    },
+    {
+        icon: <Workflow />,
+        title: "Integraciones",
+        description: "Integración de APIs de terceros para la gestión de tu negocio",
+    }
 ];
 
 export const dataPortfolio = [
-    /*{
+    {
         id: 1,
-        title: "Web Pro",
+        title: "En desarrollo",
         image: "/image-1.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
-    },
+    }
+    /*,
     {
         id: 2,
         title: "Desarrollo Web Ágil",

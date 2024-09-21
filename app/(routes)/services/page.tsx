@@ -15,7 +15,6 @@ const PageServices = () => {
                         Mis 
                         <span className="font-bold text-secondary"> servicios</span>
                         <p className="mb-3 text-xl text-gray-300"> Ofrezco una amplia gama de servicios para satisfacer tus necesidades.</p>
-                        <button className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">Contacta conmigo</button>
                     </h1>
                 </div>
                 <div>
