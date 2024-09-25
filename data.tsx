@@ -175,10 +175,34 @@ export const serviceData = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "En desarrollo",
-        image: "/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Isister",
+        //Tipo de proyecto: web, app, etc
+        type: "web",
+        //Si tiene descripción: true abrirá la descripción del proyecto
+        withDescription: true,
+        //Status: 0 oculto, 1 visible (Posible nuevos valores para futuras funcionalidades)
+        status: 0,
+        tecnologies: [
+            {
+                name: "Laravel",
+            },
+            {
+                name: "Angular",
+            },
+            
+        ],
+        image: "/isister.png",
+        //Enlaces del proyecto
+        urlGithub: "fefe",
+        urlDemo: "efe",
+        //Información del proyecto
+        description: "gerger",
+        objective: "",
+        public: "grewger",
+        caracteristicas: "",
+        results: "grewwger",
+        lecciones: ""
+
     }
     /*,
     {
