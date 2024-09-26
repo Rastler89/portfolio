@@ -181,7 +181,7 @@ export const dataPortfolio = [
         //Si tiene descripción: true abrirá la descripción del proyecto
         withDescription: true,
         //Status: 0 oculto, 1 visible (Posible nuevos valores para futuras funcionalidades)
-        status: 0,
+        status: 1,
         tecnologies: [
             {
                 name: "Laravel",
@@ -193,14 +193,14 @@ export const dataPortfolio = [
         ],
         image: "/isister.png",
         //Enlaces del proyecto
-        urlGithub: "fefe",
-        urlDemo: "efe",
+        urlGithub: "",
+        urlDemo: "https://isister.org",
         //Información del proyecto
-        description: "gerger",
-        objective: "",
-        public: "grewger",
+        description: "Es un portal web diseñado para centralizar y compartir información sobre la salud de las mascotas. La plataforma permite a los dueños de mascotas registrar y monitorear la salud de sus animales de compañía, incluyendo vacunaciones, visitas al veterinario, dietas, tratamientos, alergias... Una manera para compartir los datos de tu mascota en caso que necesites un cuidador o cambio de veterinario, de una forma simple y dinamica pueda alcanzar a saber todo sobre la mascota.",
+        objective: "El objetivo es crear una herramienta para compartir los datos de nuestras mascotas como también tener un lugar centralizado para todos los cuidados y recordatorios que afectan a las mascotas. Con el tiempo se buscara tener integraciones con otros sistemas de cuidados de mascotas como pueden ser los veterinarios, para ejercer un sistema de comunicación más fluido.",
+        public: "",
         caracteristicas: "",
-        results: "grewwger",
+        results: "",
         lecciones: ""
 
     }
