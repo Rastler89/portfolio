@@ -1,4 +1,4 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Workflow } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Workflow, Github } from "lucide-react";
 
 export const socialNetworks = [
    /* {
@@ -11,21 +11,11 @@ export const socialNetworks = [
         logo: <Linkedin size={30} strokeWidth={1} />,
         src: "https://www.linkedin.com/in/danielmolinamunera",
     },
-    /*{
+    {
         id: 3,
-        logo: <Twitter size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 4,
-        logo: <Rss size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 5,
-        logo: <Twitch size={30} strokeWidth={1} />,
-        src: "#!",
-    },*/
+        logo: <Github size={30} strokeWidth={1} />,
+        src: "https://github.com/Rastler89",
+    }
 ];
 
 
@@ -58,7 +48,7 @@ export const itemsNavbar = [
         id: 5,
         title: "Home",
         icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-        link: "/contact",
+        link: "/blog",
     },*/
 ];
 
@@ -72,34 +62,41 @@ export const dataAboutPage = [
     },*/
     {
         id: 1,
+        title: "Programador Full Stack",
+        subtitle: "GrupoSolutia",
+        description: "Desarrollo/mantenimiento de plataforma web en tecnologia REACT",
+        date: "Dic 2024"
+    },
+    {
+        id: 2,
         title: "Programador PL/SQL", 
         subtitle: "Consorci Hospitalari de Vic",
         description: "Desarrollo/mantenimiento de scripts PL/SQL en Oracle, desarrollo/mantenimiento de interfaces gráficas con ORACLE Forms y Reports",
         date: "Mar 2023"
     },
     {
-        id: 2,
+        id: 3,
         title: "Técnico de TI",
         subtitle: "Optima Retail",
         description: "Gestión de incidencias, desarrollo íntegro de un sistema de control de calidad, programación de pantallas",
         date: "Feb 2022"
     },
     {
-        id: 3,
+        id: 4,
         title: "Programador PHP",
         subtitle: "Easypromos",
         description: "Desarrollo/mantenimiento de scripts PHP, desarrollo de interfaces gráficas con React",
         date: "Ene 2020"
     },
     {
-        id: 4,
+        id: 5,
         title: "Programadow Web",
         subtitle: "Alarmas y Seguridad",
         description: "Desarrollo de una web para la venta de alarmas y seguridad electrónica",
         date: "Jul 2019"
     },
     {
-        id: 5,
+        id: 6,
         title: "Programador",
         subtitle: "Bon Preu S.A.U",
         description: "Desarrollo y mantenimiento de aplicaciones informáticas para la gestión de la empresa, mantenimiento de scripts PL/SQL, desarrollo de interfaces 4GL. Mantenimiento de base de datos Oracle y Microsoft SQL Server. Gestión de incidencias",
@@ -187,7 +184,7 @@ export const dataPortfolio = [
                 name: "Laravel",
             },
             {
-                name: "Angular",
+                name: "Next.js",
             },
             
         ],
