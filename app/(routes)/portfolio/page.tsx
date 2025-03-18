@@ -4,6 +4,12 @@ import ContainerPage from "@/components/container"
 import PortfolioBox from "@/components/portfolio-box";
 import TransitionPage from "@/components/transition-page";
 import { dataPortfolio } from "@/data";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Rastler | Portfolio",
+    description: "Proyectos desarrollados por Rastler",
+};
 
 const PagePortfolio = () => {
     const filterDataPortfolio = dataPortfolio.filter((data) => data.status != 0);

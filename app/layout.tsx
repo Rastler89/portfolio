@@ -19,8 +19,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Rastler Landing Page",
-  description: "Landing page made by Rastler",
+  title: "Rastler | Inicio",
+  description: "Página de inicio de Rastler",
 };
 
 export default function RootLayout({

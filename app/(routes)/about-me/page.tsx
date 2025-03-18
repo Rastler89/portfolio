@@ -3,6 +3,12 @@ import ContainerPage from "@/components/container";
 import Avatar from "@/components/avatar";
 import CounterServices from "@/components/counter-services";
 import Timeline from "@/components/timeline";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Rastler | Acerca de mi",
+    description: "Trayectoria profesional de Rastler",
+};
 
 const PageAboutMe = () => {
     return (

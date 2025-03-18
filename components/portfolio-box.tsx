@@ -27,7 +27,7 @@ interface PortfolioBoxProps {
 }
 
 const PortfolioBox = (props: PortfolioBoxProps) => {
-    const { id, title, tecnologies, image, urlGithub, urlDemo, withDescription } = props.data;
+    const { id, slug, title, tecnologies, image, urlGithub, urlDemo, withDescription } = props.data;
 
     return (
         <div key={id} className="p-4 border border-teal-50 rounded-xl text-center">
@@ -46,7 +46,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
                     <span className="absolute top-10 scale-0 transition-all rounded bg-gray-800 p-2 text-xs text-white group-hover:scale-100">Código fuente</span>
                 </div>}
                 {withDescription && <div className="group relative flex justify-center">
-                    <Link href={`/project/${id}`} className={`p-2 transition duration-160 bg-secondary hover:bg-secondary/80 ${urlGithub == "" ? "rounded-l-lg" : ""} ${urlDemo == "" ? "rounded-r-lg" : ""}`}>
+                    <Link href={`/project/${slug}`} className={`p-2 transition duration-160 bg-secondary hover:bg-secondary/80 ${urlGithub == "" ? "rounded-l-lg" : ""} ${urlDemo == "" ? "rounded-r-lg" : ""}`}>
                         <Info />
                     </Link>
                     <span className="absolute top-10 scale-0 transition-all rounded bg-gray-800 p-2 text-xs text-white group-hover:scale-100">Ver más</span>

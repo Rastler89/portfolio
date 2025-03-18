@@ -172,6 +172,7 @@ export const serviceData = [
 export const dataPortfolio = [
     {
         id: 1,
+        slug: "isister",
         title: "Isister",
         //Tipo de proyecto: web, app, etc
         type: "web",
