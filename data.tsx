@@ -62,41 +62,48 @@ export const dataAboutPage = [
     },*/
     {
         id: 1,
+        title: "Programador PL/SQL + PHP",
+        subtitle: "Obliku",
+        description: "Asistencia, desarrollo de herramientas PHP y Pl/SQL",
+        date: "Jun 2025"
+    },
+    {
+        id: 2,
         title: "Programador Full Stack",
         subtitle: "GrupoSolutia",
         description: "Desarrollo/mantenimiento de plataforma web en tecnologia REACT",
         date: "Dic 2024"
     },
     {
-        id: 2,
+        id: 3,
         title: "Programador PL/SQL", 
         subtitle: "Consorci Hospitalari de Vic",
         description: "Desarrollo/mantenimiento de scripts PL/SQL en Oracle, desarrollo/mantenimiento de interfaces gráficas con ORACLE Forms y Reports",
         date: "Mar 2023"
     },
     {
-        id: 3,
+        id: 4,
         title: "Técnico de TI",
         subtitle: "Optima Retail",
         description: "Gestión de incidencias, desarrollo íntegro de un sistema de control de calidad, programación de pantallas",
         date: "Feb 2022"
     },
     {
-        id: 4,
+        id: 5,
         title: "Programador PHP",
         subtitle: "Easypromos",
         description: "Desarrollo/mantenimiento de scripts PHP, desarrollo de interfaces gráficas con React",
         date: "Ene 2020"
     },
     {
-        id: 5,
+        id: 6,
         title: "Programadow Web",
         subtitle: "Alarmas y Seguridad",
         description: "Desarrollo de una web para la venta de alarmas y seguridad electrónica",
         date: "Jul 2019"
     },
     {
-        id: 6,
+        id: 7,
         title: "Programador",
         subtitle: "Bon Preu S.A.U",
         description: "Desarrollo y mantenimiento de aplicaciones informáticas para la gestión de la empresa, mantenimiento de scripts PL/SQL, desarrollo de interfaces 4GL. Mantenimiento de base de datos Oracle y Microsoft SQL Server. Gestión de incidencias",
