@@ -21,7 +21,7 @@ const Project = () => {
                 <TransitionPage />
                 <div className="flex flex-col justify-center h-full">
                     <h1 className="text-2xl leading-tight text-center md:text-5xl mb-5 font-bold text-secondary">{data?.title}</h1>
-                    <div className="flex flex-wrap gap-2 mb-3">
+                    <div className="flex flex-wrap gap-2 mb-3 w-full">
                             {data?.tecnologies.map((tecnology) => (
                                 <Tecnologies key={tecnology.name} data={tecnology} />
                             ))}
