@@ -43,12 +43,12 @@ export const itemsNavbar = [
         title: "Target",
         icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
         link: "/portfolio",
-    },
-    /*{
+    },/*
+    {
         id: 5,
-        title: "Home",
+        title: "Hobbie",
         icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-        link: "/blog",
+        link: "http://blog.rastler.dev",
     },*/
 ];
 
@@ -114,7 +114,7 @@ export const dataAboutPage = [
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 7,
+        endCounter: 9,
         text: "Años de experiencia",
         lineRight: true,
         lineRightMobile: true,
@@ -208,15 +208,30 @@ export const dataPortfolio = [
         results: "",
         lecciones: ""
 
-    }
-    /*,
+    },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
-        image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
+        slug: "nidoria",
+        title: "Nidoria",
+        type: "web",
+        withDescription: true,
+        status: 1,
+        tecnologies: [
+            { name: "Nest.js" },
+            { name: "Next.js" },
+            { name: "WebSocket" },
+            { name: "Redis" }
+        ],
+        image: "/nidoria.png",
+        urlGithub: "", 
+        urlDemo: "https://nidoria.org",
+        description: "Nidoria es un RTS (Estrategia en Tiempo Real) masivo basado en la web donde los jugadores asumen el rol de una hormiga reina con un objetivo claro: expandir su hormiguero hasta convertirlo en un imperio dominante. El juego ocurre en un mundo persistente donde cada decisión cuenta.",
+        objective: "Lograr una experiencia de estrategia profunda y competitiva que sea accesible instantáneamente desde el navegador, priorizando la fluidez de las unidades y la interacción social entre jugadores.",
+        public: "Entusiastas de los juegos de estrategia, fans de los RTS clásicos y jugadores que buscan experiencias competitivas de nicho en plataformas web.",
+        caracteristicas: "Simulación de miles de unidades en tiempo real mediante WebSockets, sistema de recolección de recursos dinámico, conquista de territorios y una arquitectura de servidor optimizada para alta disponibilidad.",
+        results: "Se logró una comunicación bidireccional estable que permite batallas fluidas. La integración de Redis como gestor de estados y eventos temporales permitió reducir drásticamente la carga de la CPU del servidor al eliminar procesos redundantes.",
+        lecciones: "Una de las mayores revelaciones fue sustituir los Crontabs tradicionales por una arquitectura basada en Redis para manejar eventos de tiempo. Esto no solo liberó al servidor, sino que hizo que la lógica de 'ticks' del juego fuera mucho más predecible y escalable."
+    }/*
     {
         id: 3,
         title: "Estrategias Web",
